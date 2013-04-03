@@ -7,42 +7,292 @@
     {
      "name": "compact",
      "children": [
-      {"name": "Chevrolet Cruze", "size": 3534},
-      {"name": "Buick Verano", "size": 5731},
-      {"name": "Dodge Dart", "size": 7840},
-      {"name": "Ford Focus", "size": 5914},
-      {"name": "Volkswagen Jetta", "size": 3416},
-      {"name": "Honda Civic", "size": 3416},
-      {"name": "Hyundai Elantra", "size": 3416},
-      {"name": "Kia Forte", "size": 3416},
-      {"name": "Mazda 3", "size": 3416},
-      {"name": "Nissan Sentra", "size": 3416},
-      {"name": "Subaru Impreza", "size": 3416}
+        {
+          "name": "Buick Verano",
+          "children": [
+                {"name": "#1: Chevrolet Cruze", "size": 73.2},
+                {"name": "#2: Dodge Dart", "size": 12.9},
+                {"name": "#3: Ford Focus", "size": 8.3},
+                {"name": "#4: Volkswagen Jetta", "size": 4.2},
+                {"name": "#5: Honda Civic", "size": 1.4}          
+              ]
+        },  
+      
+        {
+          "name": "Chevrolet Cruze",
+          "children": [
+                {"name": "#1: Honda Civic", "size": 55.3},
+                {"name": "#2: Buick Verano", "size": 30.2},
+                {"name": "#3: Ford Focus", "size": 6.2},
+                {"name": "#4: Volkswagen Jetta", "size": 4.2},
+                {"name": "#5: Dodge Dart", "size": 4.1}          
+              ]
+        },
+      
+        {
+          "name": "Dodge Dart",
+          "children": [
+                {"name": "#1: Honda Civic", "size": 53.2},
+                {"name": "#2: Buick Verano", "size": 27.3},
+                {"name": "#3: Ford Focus", "size": 15.3},
+                {"name": "#4: Volkswagen Jetta", "size": 3.1},
+                {"name": "#5: Chevrolet Cruze", "size": 1.1}          
+              ]
+        },
+        
+        {
+          "name": "Ford Focus",
+          "children": [
+                {"name": "#1: Mazda 3", "size": 45.7},
+                {"name": "#2: Nissan Sentra", "size": 36.2},
+                {"name": "#3: Dodge Dart", "size": 9.8},
+                {"name": "#4: Volkswagen Jetta", "size": 6.2},
+                {"name": "#5: Chevrolet Cruze", "size": 2.1}          
+              ]
+        },
+        
+        {
+          "name": "Honda Civic",
+          "children": [
+                {"name": "#1: Ford Focus", "size": 42.1},
+                {"name": "#2: Nissan Sentra", "size": 35.6},
+                {"name": "#3: Subaru Impreza", "size": 15.2},
+                {"name": "#4: Volkswagen Jetta", "size": 4.0},
+                {"name": "#5: Chevrolet Cruze", "size": 3.1}          
+              ]
+        },
+        
+        {
+          "name": "Hyundai Elantra",
+          "children": [
+                {"name": "#1: Mazda 3", "size": 33.2},
+                {"name": "#2: Nissan Sentra", "size": 24.8},
+                {"name": "#3: Kia Forte", "size": 15.7},
+                {"name": "#4: Volkswagen Jetta", "size": 14.3},
+                {"name": "#5: Chevrolet Cruze", "size": 12.0}          
+              ]
+        },
+
+        {
+          "name": "Kia Forte",
+          "children": [
+                {"name": "#1: Subaru Impreza", "size": 41.6},
+                {"name": "#2: Nissan Sentra", "size": 24.9},
+                {"name": "#3: Hyundai Elantra", "size": 20.7},
+                {"name": "#4: Volkswagen Jetta", "size": 10.8},
+                {"name": "#5: Chevrolet Cruze", "size": 2.0}          
+              ]
+        },
+      
+        {
+          "name": "Mazda 3",
+          "children": [
+                {"name": "#1: Subaru Impreza", "size": 29.5},
+                {"name": "#2: Hyundai Elantra", "size": 27.4},
+                {"name": "#3: Nissan Sentra", "size": 22.3},
+                {"name": "#4: Volkswagen Jetta", "size": 18.3},
+                {"name": "#5: Kia Forte", "size": 2.5}          
+              ]
+        },
+        
+        {
+          "name": "Nissan Sentra",
+          "children": [
+                {"name": "#1: Hyundai Elantra", "size": 31.3},
+                {"name": "#2: Volkwagen Jetta", "size": 25.4},
+                {"name": "#3: Kia Forte", "size": 20.2},
+                {"name": "#4: Chevrolet Cruze", "size": 12.8},
+                {"name": "#5: Mazda 3", "size": 10.3}          
+              ]
+        },
+
+        {
+          "name": "Subaru Impreza",
+          "children": [
+                {"name": "#1: Mazda 3", "size": 43.1},
+                {"name": "#2: Hyundai Elantra", "size": 27.2},
+                {"name": "#3: Nissan Sentra", "size": 11.3},
+                {"name": "#4: Chevrolet Cruze", "size": 10.1},
+                {"name": "#5: Mazda 3", "size": 8.3}          
+              ]
+        }
      ]
     },
+    
+    
     {
-     "name": "near luxury",
-     "children": [
-      {"name": "Cadillac CTS", "size": 1},
-      {"name": "Toyota Avalon", "size": 2},
-      {"name": "Infiniti G37", "size": 3},
-      {"name": "BMW 3-Series", "size": 4},
-      {"name": "Mercedes-Benz C-Class", "size": 5},
-      {"name": "Acura TL", "size": 6},
-      {"name": "Audi A4", "size": 7},
-      {"name": "Lexus ES", "size": 8},
-      {"name": "Lincoln MKZ", "size": 9}
+    "name": "near-luxury",
+    "children": [
+        {
+          "name": "Acura TL",
+          "children": [
+                {"name": "#1: Infiniti G37", "size": 30.3},
+                {"name": "#2: Cadillac CTS", "size": 25.4},
+                {"name": "#3: Lexus ES", "size": 18.2},
+                {"name": "#4: Mercedes-Benz C-Class", "size": 17.8},
+                {"name": "#5: Audi A4", "size": 8.3}          
+              ]
+        },  
+      
+        {
+          "name": "Audi A4",
+          "children": [
+                {"name": "#1: Mercedes-Benz C-Class", "size": 32.1},
+                {"name": "#2: BMW 3-Series", "size": 28.3},
+                {"name": "#3: Cadillac CTS", "size": 15.6},
+                {"name": "#4: Infiniti G37", "size": 13.1},
+                {"name": "#5: Volvo S60", "size": 10.9}          
+              ]
+        },
+      
+        {
+          "name": "Buick Lacrosse",
+          "children": [
+                {"name": "#1: Acura TL", "size": 24.3},
+                {"name": "#2: Volvo S60", "size": 22.1},
+                {"name": "#3: Lexus ES", "size": 21.6},
+                {"name": "#4: Audi A4", "size": 18.2},
+                {"name": "#5: Cadillac CTS", "size": 13.8}          
+              ]
+        },
+        
+        {
+          "name": "Cadillac CTS",
+          "children": [
+                {"name": "#1: BMW 3-Series", "size": 32.8},
+                {"name": "#2: Mercedes-Benz C-Class", "size": 24.2},
+                {"name": "#3: Audi A4", "size": 20.9},
+                {"name": "#4: Infiniti G37", "size": 18.2},
+                {"name": "#5: Acura TL", "size": 3.9}          
+              ]
+        },
+        
+        {
+          "name": "Infiniti G37",
+          "children": [
+                {"name": "#1: BMW 3-Series", "size": 45.3},
+                {"name": "#2: Audi A4", "size": 18.2},
+                {"name": "#3: Cadillac CTS", "size": 15.6},
+                {"name": "#4: Mercedes-Benz C-Class", "size": 13.8},
+                {"name": "#5: Volvo S60", "size": 7.1}          
+              ]
+        },
+        
+        {
+          "name": "Lexus ES",
+          "children": [
+                {"name": "#1: Infiniti G37", "size": 62.5},
+                {"name": "#2: Audi A4", "size": 13.5},
+                {"name": "#3: Buick Lacrosse", "size": 11.9},
+                {"name": "#4: Cadillac CTS", "size": 10.8},
+                {"name": "#5: Volvo S60", "size": 1.3}          
+              ]
+        },
+
+        {
+          "name": "Lincoln MKZ",
+          "children": [
+                {"name": "#1: Volvo S60", "size": 45.6},
+                {"name": "#2: Buick Lacrosse", "size": 21.9},
+                {"name": "#3: BMW 3-Series", "size": 18.2},
+                {"name": "#4: Mercedes-Benz C-Class", "size": 11.9},
+                {"name": "#5: Audi A4", "size": 2.4}          
+              ]
+        },
+      
+        {
+          "name": "Mercedes-Benz C-Class",
+          "children": [
+                {"name": "#1: BMW 3-Series", "size": 62.3},
+                {"name": "#2: Audi A4", "size": 15.2},
+                {"name": "#3: Cadillac CTS", "size": 11.2},
+                {"name": "#4: Infiniti G37", "size": 7.1},
+                {"name": "#5: Volvo S60", "size": 4.2}          
+              ]
+        },
+        
+        {
+          "name": "Volvo S60",
+          "children": [
+                {"name": "#1: Audi A4", "size": 25.2},
+                {"name": "#2: Cadillac CTS", "size": 23.1},
+                {"name": "#3: Buick Lacrosse", "size": 20.4},
+                {"name": "#4: Lincoln MKZ", "size": 20.4},
+                {"name": "#5: BMW 3-Series", "size": 10.9}          
+              ]
+        }
      ]
     },
+
     {
-     "name": "full-size pickup trucks",
+     "name": "full-size pickup",
      "children": [
-      {"name": "Ford F-Series", "size": 3534},
-      {"name": "Chevrolet Silverado", "size": 5731},
-      {"name": "Ram 1500-Series", "size": 7840},
-      {"name": "GMC Sierra", "size": 5914},
-      {"name": "Toyota Tundra", "size": 3416},
-      {"name": "Nissan Titan", "size": 3416}
+         
+        {
+          "name": "Ford F-Series",
+          "children": [
+                {"name": "#1: Chevrolet Silverado", "size": 40.3},
+                {"name": "#2: Ram 1500 Series", "size": 25.4},
+                {"name": "#3: Toyota Tundra", "size": 18.2},
+                {"name": "#4: GMC Sierra", "size": 7.8},
+                {"name": "#5: Nissan Titan", "size": 8.3}          
+              ]
+        },
+        
+        {
+          "name": "Chevrolet Silverado",
+          "children": [
+                {"name": "#1: Ford F-Series", "size": 30.3},
+                {"name": "#2: GMC Sierra", "size": 25.4},
+                {"name": "#3: Nissan Titan", "size": 18.2},
+                {"name": "#4: Toyota Tundra", "size": 17.8},
+                {"name": "#5: Ram 1500 Series", "size": 8.3}          
+              ]
+        },  
+
+        {
+          "name": "Ram 1500 Series",
+          "children": [
+                {"name": "#1: Toyota Tundra", "size": 30.3},
+                {"name": "#2: Chevrolet Silverado", "size": 25.4},
+                {"name": "#3: Nissan Titan", "size": 18.2},
+                {"name": "#4: GMC Sierra", "size": 17.8},
+                {"name": "#5: Ford F-Series", "size": 8.3}          
+              ]
+        },  
+
+        {
+          "name": "GMC Sierra",
+          "children": [
+                {"name": "#1: Chevrolet Silverado", "size": 30.3},
+                {"name": "#2: Ford F-Series", "size": 25.4},
+                {"name": "#3: Toyota Tundra", "size": 18.2},
+                {"name": "#4: Nissan Titan", "size": 17.8},
+                {"name": "#5: Ram 1500 Series", "size": 8.3}          
+              ]
+        },  
+        
+        {
+          "name": "Toyota Tundra",
+          "children": [
+                {"name": "#1: Ram 1500 Series", "size": 30.3},
+                {"name": "#2: Ford F-Series", "size": 25.4},
+                {"name": "#3: Nissan Titan", "size": 18.2},
+                {"name": "#4: GMC Sierra", "size": 17.8},
+                {"name": "#5: Chevrolet Silverado", "size": 8.3}          
+              ]
+        },
+
+        {
+          "name": "Nissan Titan",
+          "children": [
+                {"name": "#1: Toyota Tundra", "size": 30.3},
+                {"name": "#2: Chevrolet Silverado", "size": 25.4},
+                {"name": "#3: GMC Sierra", "size": 18.2},
+                {"name": "#4: Ford F-Series", "size": 17.8},
+                {"name": "#5: Ram 1500 Series", "size": 8.3}          
+              ]
+        }  
      ]
     }
    ]    

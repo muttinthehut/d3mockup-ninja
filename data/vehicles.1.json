@@ -1,0 +1,51 @@
+{
+ "name": "vehicles",
+ "children": [
+  {
+   "name": "segment",
+   "children": [
+    {
+     "name": "compact",
+     "children": [
+      {"name": "Chevrolet Cruze", "size": 3534},
+      {"name": "Buick Verano", "size": 5731},
+      {"name": "Dodge Dart", "size": 7840},
+      {"name": "Ford Focus", "size": 5914},
+      {"name": "Volkswagen Jetta", "size": 3416},
+      {"name": "Honda Civic", "size": 3416},
+      {"name": "Hyundai Elantra", "size": 3416},
+      {"name": "Kia Forte", "size": 3416},
+      {"name": "Mazda 3", "size": 3416},
+      {"name": "Nissan Sentra", "size": 3416},
+      {"name": "Subaru Impreza", "size": 3416}
+     ]
+    },
+    {
+     "name": "near luxury",
+     "children": [
+      {"name": "Cadillac CTS", "size": 1},
+      {"name": "Toyota Avalon", "size": 2},
+      {"name": "Infiniti G37", "size": 3},
+      {"name": "BMW 3-Series", "size": 4},
+      {"name": "Mercedes-Benz C-Class", "size": 5},
+      {"name": "Acura TL", "size": 6},
+      {"name": "Audi A4", "size": 7},
+      {"name": "Lexus ES", "size": 8},
+      {"name": "Lincoln MKZ", "size": 9}
+     ]
+    },
+    {
+     "name": "full-size pickup trucks",
+     "children": [
+      {"name": "Ford F-Series", "size": 3534},
+      {"name": "Chevrolet Silverado", "size": 5731},
+      {"name": "Ram 1500-Series", "size": 7840},
+      {"name": "GMC Sierra", "size": 5914},
+      {"name": "Toyota Tundra", "size": 3416},
+      {"name": "Nissan Titan", "size": 3416}
+     ]
+    }
+   ]    
+  }
+ ]
+}

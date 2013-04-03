@@ -104,7 +104,28 @@ function update(source) {
       .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
       .attr("dy", ".35em")
       .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
-      .text(function(d) { return d.name; })
+      
+      //  originally was just name
+      // .text(function(d) { return d.name; })
+      
+      // added below to add size and ranking detail to the last node in the tree.
+      
+      .text(
+          function(d) 
+            {
+            
+            var sizecheck = typeof d.size;
+                
+            if(sizecheck != 'undefined')
+            return (d.name + " - " + d.size + " %"); else return (d.name);
+            // if (d.size !== 'undefined') {return d.name + " - " d.size;} else
+            //    {return d.name;}
+                
+            }
+          )
+      
+      
+      
       .style("fill-opacity", 1e-6);
 
   // Transition nodes to their new position.
